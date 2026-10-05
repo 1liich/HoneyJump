@@ -1,0 +1,2 @@
+ALTER TABLE public.emails
+ADD COLUMN active BOOLEAN NOT NULL DEFAULT true;
